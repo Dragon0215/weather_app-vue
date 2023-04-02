@@ -1,0 +1,96 @@
+.app {
+    background-image: url(./image/cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: 1366px 768px;
+    font-family: monospace;
+}
+
+.Clouds {
+    background-image: url(./image/cloud.jpg);
+}
+
+.Cold {
+    background-image: url(./image/cold.webp);
+}
+
+.Rain {
+    background-image: url(./image/rain.jpg);
+}
+
+.Drizzle {
+    background-image: url(./image/rain.jpg);
+}
+
+.Sunny {
+    background-image: url(./image/sun.jpeg);
+}
+
+.Clear {
+    background-image: url(./image/sun.jpeg);
+}
+
+.Snow {
+    background-image: url(./image/snow.webp);
+}
+
+.container {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .25), rgba(0, 0, 0, .6));
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffff;
+    font-weight: 700;
+    text-shadow: 8px 8px 5px #000000;
+    padding-top: 50px;
+}
+
+.region {
+    font-size: 62px;
+}
+
+.date {
+    font-size: 23px;
+}
+
+.temp {
+    font-size: 75px;
+    margin: 30px 0;
+}
+
+.weather {
+    font-size: 36px;
+}
+
+.min-max {
+    margin-top: 10px;
+    text-shadow: 0 0 5px #000000,
+                0 0 10px #000000,
+                0 0 15px #000000,
+                0 0 20px #000000;
+}
+
+.srch {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.txt {
+    margin-top: 80px;
+    width: 350px!important;
+    height: 50px!important;
+    font-size: 18px!important;
+    box-shadow: 2px 2px 5px #000000;
+    border-radius: 18px 2px 18px 2px;
+    transition: all 0.5s ease;
+}
+
+.txt:focus {
+    border-radius: 2px 18px 2px 18px;
+}
